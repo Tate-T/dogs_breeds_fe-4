@@ -4,3 +4,20 @@
     font-size: 42px;
     text-transform: uppercase;
 }
+
+.main-photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.main-text {
+    font-size: 42px;
+    color: aqua;
+    text-indent: 25px;
+}
+
+body {
+    /* background-image:linear-gradient(to right bottom, skyblue, violet, gold, orange); */
+background-image: radial-gradient(ellipse at top center, skyblue, violet, gold, orange);
+}
