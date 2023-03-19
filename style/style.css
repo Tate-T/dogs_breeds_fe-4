@@ -3,6 +3,7 @@
     text-align: center;
     font-size: 42px;
     text-transform: uppercase;
+    text-shadow: 5px 5px 7px red;
 }
 
 .main-photo {
@@ -20,4 +21,16 @@
 body {
     /* background-image:linear-gradient(to right bottom, skyblue, violet, gold, orange); */
 background-image: radial-gradient(ellipse at top center, skyblue, violet, gold, orange);
+}
+
+.box-style {
+    border: 2px dashed rgb(3, 3, 74);
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient(circle at center, black, blueviolet, blue, violet, skyblue, white);
+    padding-top: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
