@@ -70,3 +70,15 @@ body {
   padding: 0;
   gap: 25px;
 }
+.pages-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none ;
+
+}
+.pages-link {
+  font-family: 'Kaushan Script';
+  text-decoration: none ;
+  text-shadow: 3px 1px 3px black;
+  font-size: 36px;
+}
