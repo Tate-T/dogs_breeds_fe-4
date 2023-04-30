@@ -53,6 +53,8 @@ body {
   font-family: "Courier New", Courier, monospace;
   text-shadow: 8px 8px 9px rgb(0, 0, 0);
   position: relative;
+  height: 500px;
+  overflow: hidden;
 }
 
 .dogs-photo {
@@ -94,8 +96,24 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 0;
+  transition: opacity 1s linear 250ms;
 }
 
 .dogs-card:hover .overlay {
   opacity: 1;
+  
+}
+
+.dogs-card:hover {
+  box-shadow: 1px 2px 8px 5px yellow;
+  border-color: blue;
+}
+
+button {
+  background-color: rgba(59, 25, 183, 0.763);
+  color:black;
+  border: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
