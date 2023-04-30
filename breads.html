@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
     <header>
         <ul class="pages-list animate__heartBeat">
             <li class="pages-item">
-             <a href="./index.html" class="pages-link">Golovna Inf</a>
+                <a href="./index.html" class="pages-link">Golovna Inf</a>
             </li>
             <li class="pages-item">
-            <a href="./breads.html" class="pages-link">Breeds</a>
+                <a href="./breads.html" class="pages-link">Breeds</a>
             </li>
             <li class="pages-item">
-             <a href="" class="pages-link">Galery</a>
+                <a href="" class="pages-link">Galery</a>
             </li>
         </ul>
-        </header>
-    <ul class="dogs-breeds">
-        <li class="dogs-card">
+    </header>
+    <ul class="dogs-breeds" data-aos="fade-right" data-aos-duration="2000">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Мальтійська болонка</h2>
                 <img class="dogs-photo" src="./images/maltiza.jpg" alt="мальтиза">
@@ -50,7 +50,7 @@
 
 
 
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Пітбуль</h2>
                 <img class="dogs-photo" src="./images/pitbul.jpeg" alt="Пітбуль">
@@ -66,7 +66,7 @@
 
 
 
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Вівчарка</h2>
                 <img class="dogs-photo" src="./images/vivcharka.jpg" alt="Вівчарка">
@@ -79,7 +79,7 @@
                     детальніше</a>
             </article>
         </li>
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Мопс</h2>
                 <img class="dogs-photo" src="./images/mops.jpg" alt="Мопс">
@@ -90,7 +90,7 @@
                     Мопса</a>
             </article>
         </li>
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>чіхуа хуа</h2>
                 <img class="dogs-photo" src="./images/chihuahua.webp" alt="chihuahua">
@@ -108,10 +108,11 @@
             </article>
 
         </li>
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Хаскі</h2>
-                <img class="dogs-photo" src="https://static.tildacdn.com/tild6239-6661-4563-b135-636262383031/Usher-6013-130821-Ch.jpg"
+                <img class="dogs-photo"
+                    src="https://static.tildacdn.com/tild6239-6661-4563-b135-636262383031/Usher-6013-130821-Ch.jpg"
                     alt="Хаскі">
                 <b>
                     <p>Хаскі це додж тількі іншого кольору</p>
@@ -119,7 +120,7 @@
                 <a href="https://dogsavenue.com.ua/haski">Site picture</a>
             </article>
         </li>
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Йоркшерський тер'єер</h2>
                 <img class="dogs-photo" src="./images/york.jpg" alt="Порода Йорк">
@@ -130,7 +131,7 @@
                 <a href="https://www.olx.ua/uk/zhivotnye/if/q-%D0%B9%D0%BE%D1%80%D0%BA/">Купити</a>
             </article>
         </li>
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Французький бульдог</h2>
                 <img class="dogs-photo" src="./images/dobryak.jpg" alt="Французький бульдог">
@@ -140,7 +141,7 @@
                 <a href="https://www.purina.ua/dogs/dog-breeds/library/french_bulldog">Почитати Більше</a>
             </article>
         </li>
-        <li class="dogs-card">
+        <li class="dogs-card" data-aos="flip-left">
             <article>
                 <h2>Далматинець</h2>
                 <img class="dogs-photo" src="./images/Вулиця Далматинців 101.jpg" alt="Далматинець">
@@ -158,5 +159,10 @@
             </article>
         </li>
     </ul>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

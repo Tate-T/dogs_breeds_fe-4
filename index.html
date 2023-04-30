@@ -7,36 +7,34 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>My favorite dogs</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
-
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
     <header>
-    <ul class="pages-list animate__heartBeat">
-        <li class="pages-item">
-         <a href="./index.html" class="pages-link">Golovna Inf</a>
-        </li>
-        <li class="pages-item">
-        <a href="./breads.html" class="pages-link">Breeds</a>
-        </li>
-        <li class="pages-item">
-         <a href="" class="pages-link">Galery</a>
-        </li>
-    </ul>
+        <ul class="pages-list animate__heartBeat">
+            <li class="pages-item">
+                <a href="./index.html" class="pages-link">Golovna Inf</a>
+            </li>
+            <li class="pages-item">
+                <a href="./breads.html" class="pages-link">Breeds</a>
+            </li>
+            <li class="pages-item">
+                <a href="" class="pages-link">Galery</a>
+            </li>
+        </ul>
     </header>
     <div class="box-style">
         <h1 class="main-title animate__heartBeat">Найцікавіші породи собак</h1>
     </div>
     <article class="main-article">
-        <img class="main-photo" src="./images/opys-sobaky-dlya-ditey--870x400.jpeg" alt="cобаки">
+        <img class="main-photo" data-aos="zoom-in-up" data-aos-duration="3000"
+            src="./images/opys-sobaky-dlya-ditey--870x400.jpeg" alt="cобаки">
         <p class="main-text">Пес сві́йський або соба́ка сві́йський (Canis lupus familiaris або Canis familiaris) —
             культигенна тварина.
             Термін застосовують як для домашніх, так і для бездомних тварин. Свійський пес був одним з найбільш широко
@@ -44,7 +42,10 @@
     </article>
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
