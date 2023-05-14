@@ -14,8 +14,8 @@
   margin-top: 100px;
 }
 
-.main-photo:hover{
-transform: translate(300px);
+.main-photo:hover {
+  transform: translate(300px);
 }
 
 .main-text {
@@ -52,7 +52,8 @@ body {
   transform: rotate3d(1, 1, 1, 0deg);
   transition: transform 2s linear 250ms;
 }
-.box-style:hover{
+
+.box-style:hover {
   transform: rotate3d(1, 1, 1, 45deg);
 }
 
@@ -111,7 +112,7 @@ body {
 
 .dogs-card:hover .overlay {
   opacity: 1;
-  
+
 }
 
 .dogs-card:hover {
@@ -121,7 +122,7 @@ body {
 
 button {
   background-color: rgba(59, 25, 183, 0.763);
-  color:black;
+  color: black;
   border: none;
   width: 100px;
   height: 100px;
